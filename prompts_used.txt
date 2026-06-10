@@ -1,0 +1,128 @@
+# Prompts Used to Build 2D Graphics Editor — From Scratch to Finish
+
+A complete log of every prompt used to build this project from zero to a working, pushed GitHub repository.
+
+---
+
+## 1. Project Kickoff
+
+> "this is the project im working rn, i have connected the github account to vs code and then this is the repo link git@github.com:mimansamishra28-svg/2D_Graphics_Editor.git, now i want the structure of the project to be saved in this path C:\ACP_Project folder it has been created so just give me the commands to run in the terminal mode to create the directory in my laptop and then create an implementation plan and we need to finish it today"
+>
+> *(Included the full assignment brief: Menu-driven 2D Graphics Editor in C, canvas with `_`, shapes with `*`, draw circle/rectangle/line/triangle, add/delete/modify objects, 2D char array, display function)*
+
+---
+
+## 2. Git Not Installed
+
+> "PS C:\ACP_Project> git init
+> git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program."
+
+---
+
+## 3. Git Installation Stuck
+
+> "it isnt downloading further how do i install it in another way"
+
+---
+
+## 4. Git Installed — SSH Auth Error
+
+> "PS C:\ACP_Project> git pull origin main
+> git@github.com: Permission denied (publickey).
+> fatal: Could not read from remote repository."
+
+---
+
+## 5. SSH Key Setup — Repo Empty
+
+> *(Shared terminal output showing SSH authenticated successfully but pull failed with "couldn't find remote ref main")*
+
+---
+
+## 6. First Push — Files Already Exist
+
+> *(Shared terminal output showing mkdir and New-Item errors because files already existed from earlier commands)*
+
+---
+
+## 7. Code Not Showing on GitHub
+
+> "dude its not reflecting in the github.com repo it is still asking for creating the codespace"
+
+---
+
+## 8. GCC Not Installed
+
+> "PS C:\ACP_Project> gcc -Iinclude src/main.c src/canvas.c src/shapes.c src/menu.c -o build/editor
+> gcc : The term 'gcc' is not recognized as the name of a cmdlet, function, script file, or operable program."
+
+---
+
+## 9. Pacman Not Recognized
+
+> "PS C:\ACP_Project> pacman -S mingw-w64-x86_64-gcc
+> pacman : The term 'pacman' is not recognized..."
+
+---
+
+## 10. Program Running — Need Safe Coordinates
+
+> "ok give me the proper coordinates for the shapes it open and i will reopen now"
+
+---
+
+## 11. Push the Code + README
+
+> "now lets push the code and give me the readme files contents"
+
+---
+
+## 12. Push Upstream Error
+
+> "fatal: The current branch main has no upstream branch."
+
+---
+
+## 13. Final Push Successful
+
+> *(Shared terminal output confirming successful push to origin main)*
+
+---
+
+## 14. Fresh Run Commands
+
+> "ok now everything is done give me the commands to run the project freshly"
+
+---
+
+## 15. This Document
+
+> "i want you to create an md file and present it which will contain all the prompts which has been used to build the entire project from scratch 0 to end"
+
+---
+
+## Summary of What Was Built
+
+| Component | Details |
+|---|---|
+| Language | C |
+| Canvas | 25 rows × 80 cols, `_` fill |
+| Shapes | Circle, Rectangle, Line, Triangle |
+| Operations | Add, Delete, Modify |
+| Algorithms | Bresenham's line, Midpoint circle |
+| Files | main.c, canvas.c, shapes.c, menu.c + headers |
+| Version Control | Git + GitHub via SSH |
+| Compiler | TDM-GCC (Windows) |
+| Total Prompts | 15 |
+
+---
+
+## Tools & Technologies Installed During This Session
+
+- Git `v2.54.0` — via `winget`
+- TDM-GCC `v10.3.0` — via direct installer
+- SSH key — generated and added to GitHub
+
+---
+
+*Built in a single session on June 10, 2026*
